@@ -1,0 +1,92 @@
+# ==========================================
+# ROS / ROS2 Workspace .gitignore
+# ==========================================
+
+# Build and install artifacts
+build/
+install/
+log/
+.deps/
+.devel/
+.colcon/
+ament_cmake_core/
+ament_cmake_environment_hooks/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Catkin-specific
+.devel_env.sh
+.setup.sh
+.env.sh
+.catkin_tools/
+catkin_ws/
+devel/
+devel_isolated/
+build_isolated/
+install_isolated/
+
+# Colcon build system
+.colcon_install_cache/
+colcon_command_prefix.sh
+.colcon_log/
+test_results/
+
+# ROS 2 package index
+resource_index/
+local_setup.*
+
+# Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.eggs/
+*.log
+
+# Launch & configuration backups
+*.launch~
+*.xml~
+*.yaml~
+*.yml~
+*.rviz~
+*.bag
+*.db3
+
+# Editors and OS files
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+.clangd/
+.ccls-cache/
+*.code-workspace
+
+# Temporary archives or binary data
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+*.7z
+*.rar
+
+# ROS simulation and bag files
+*.bag.active
+*.bag.orig
+*.bag.tmp
+*.bag.old
+
+# Miscellaneous
+.env
